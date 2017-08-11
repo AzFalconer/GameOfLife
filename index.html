@@ -1,0 +1,30 @@
+<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script type="text/javascript" src='main.js'></script>
+<head>
+  <link rel="stylesheet" href="style.min.css">
+</head>
+<div class="main">
+  <table id="board">
+    <tr>
+      <td id="results" class="tdCtrl" colspan="20" style="text-align: center;">Simulation Results</td>
+    </tr>
+    <tr>
+      <td id="generation" class="tdCtrl" colspan="10"></td>
+      <td id="population" class="tdCtrl" colspan="10"></td>
+    </tr>
+  </table>
+  <br><br>
+  <div class="ctrlPanel">
+    <div id="highScore">Greatest number of generations before extinction event:</div>
+    <div class="btnBar">
+      <button id="btnStep">Step</button>
+      <button id="btnStart">Start</button>
+      <button id="btnPause">Pause</button>
+      <button id="btnRandom">Random</button>
+      <button id="btnClear">Clear</button>
+    </div>
+    <div id="speedBar" style="width: 100%;"><img src='https://www.redtailbooks.com/codeCamp/images/tort.png' style="width: 3vw"> <input type="range" min="1" max="10" value="5" step="1" id="speed" style="width: 70%;" /> <img src='https://www.redtailbooks.com/codeCamp/images/hare.png' style="width: 3vw"></div>
+  </div>
+</div>
+<div class="footer">Another <a href='https://codepen.io/AzFalconer/full/bRgpQx/' target='_blank'>David Darby</a> production made with &nbsp;<i class="fa fa-coffee" aria-hidden="true"></i>&nbsp; & lots of &nbsp;<i class="fa fa-book" aria-hidden="true"></i>&nbsp; and hopefully
+  &nbsp;<i class="fa fa-bug" aria-hidden="true"></i>&nbsp; free. &copy; 2017</div>
